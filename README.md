@@ -1,4 +1,4 @@
 sparkle-util
 ============
 
-Tools verify, sign, and automate sparkle (https://github.com/andymatuschak/Sparkle)
+Tools to verify, sign, and automate sparkle (https://github.com/andymatuschak/Sparkle)
