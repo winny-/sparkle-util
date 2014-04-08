@@ -5,9 +5,10 @@ set -e
 APPLICATION="$1"
 
 usage(){
-    printf 'Usage: %s APPLICATION\n' "$0"
+    scriptname="$(basename "$0")"
+    printf 'Usage: %s APPLICATION\n' "$scriptname"
     echo
-    printf 'Example: %s /Applications/TextEdit.app\n' "$0"
+    printf 'Example: %s /Applications/TextEdit.app\n' "$scriptname"
     exit 1
 }
 
